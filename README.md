@@ -23,6 +23,8 @@ On supported Netflix, TVING, and Coupang Play pages, OTTPlayer shows **TMDB and 
 - **Portable site settings:** Keep custom website information in the local `custom_sites.json` file.
 - **Rating links:** Open supported rating detail pages in your default web browser.
 - **Local rating cache:** Reuse previously fetched rating information where available.
+- **Auto-hiding top menu:** Move the mouse pointer to the top edge of the OTTPlayer window to reveal the top menu.
+- **Adjustable window transparency:** While the mouse pointer is over the top menu, scroll the mouse wheel to adjust the window's transparency.
 
 ### Rating Support
 
@@ -104,6 +106,8 @@ OTTPlayer는 여러 스트리밍 웹사이트를 하나의 창에서 이용할 �
 - **설정 보관:** `custom_sites.json`에 사용자 지정 사이트 정보 로컬 저장
 - **외부 상세 링크:** 지원되는 평점 상세 페이지를 Windows 기본 브라우저로 열기
 - **로컬 평점 캐시:** 기존 조회 결과를 가능한 범위에서 재사용
+- **자동 숨김 상단 메뉴:** OTTPlayer 창 맨 위쪽으로 마우스를 이동하면 상단 메뉴가 나타남
+- **창 투명도 조절:** 상단 메뉴에 마우스를 올린 상태에서 마우스 휠을 돌려 창의 투명도를 조절
 
 ### 평점 지원 현황
 
