@@ -18,6 +18,12 @@ On supported Netflix, TVING, and Coupang Play pages, OTTPlayer shows **TMDB and 
 
 - **Streaming in one place:** Access your favorite OTT services from a single desktop application.
 - **TMDB & IMDb ratings:** See rating badges on supported Netflix, TVING, and Coupang Play pages.
+  (Other OTT services have not been tested in a logged-in environment because the developer does not have accounts for those services.)
+  **Rating API setup:** Users need to obtain their own API credentials:
+  - **TMDB:** Get your TMDB API Read Access Token from [TMDB API Settings](https://www.themoviedb.org/settings/api).
+  - **IMDb ratings:** Get an OMDb API key from [OMDb API Key](https://www.omdbapi.com/apikey.aspx).
+  Enter your personal API credentials in the **Options / Settings** window of OTTPlayer.
+  **Note:** IMDb ratings are retrieved through the OMDb API, so a separate IMDb API key is not required.
 - **Custom websites:** Add a website by entering its name and URL.
 - **Customizable menu:** Enable or disable sites and change their display order.
 - **Portable site settings:** Keep custom website information in the local `custom_sites.json` file.
@@ -101,6 +107,12 @@ OTTPlayer는 여러 스트리밍 웹사이트를 하나의 창에서 이용할 �
 
 - **OTT 사이트 통합:** 여러 스트리밍 사이트를 하나의 프로그램에서 이용
 - **평점 배지:** 넷플릭스·티빙·쿠팡플레이의 지원 화면에 TMDB·IMDb 평점 표시
+  (그 외 OTT 사이트는 개발자가 로그인 계정을 보유하지 않아 실제 로그인 환경에서 테스트하지 못했습니다.)
+  **평점 API 설정:** 평점 기능을 이용하려면 사용자가 직접 개인 API 인증정보를 발급받아야 합니다.
+  - **TMDB:** [TMDB API 설정 페이지](https://www.themoviedb.org/settings/api)에서 TMDB API Read Access Token 발급
+  - **IMDb 평점:** [OMDb API 키 발급 페이지](https://www.omdbapi.com/apikey.aspx)에서 OMDb API 키 발급
+  발급받은 개인 인증정보는 OTTPlayer의 **옵션(설정) 창**에 있는 API 입력란에 등록하면 됩니다.
+  **참고:** IMDb 평점은 OMDb API를 통해 조회하므로 IMDb에서 별도의 API 키를 발급받을 필요는 없습니다.
 - **사용자 사이트 추가:** 사이트 이름과 URL을 입력해 원하는 웹사이트 등록
 - **메뉴 편집:** 사이트 활성화·비활성화 및 표시 순서 변경
 - **설정 보관:** `custom_sites.json`에 사용자 지정 사이트 정보 로컬 저장
